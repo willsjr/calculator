@@ -8,12 +8,17 @@ namespace Calculator
         //static int num1;
         //static int num2;
         
+        
+        //nimetumia methods kutengeneza. nimepatia ee???
+        
+        
         static void Main(string[] args)
         {
             double num0 = 0;
             double num1 = 0;
             
-            Console.WriteLine("Hello World! I'm about to make a calculator program!");
+            Console.WriteLine("Hello World! I'm about to make a calculator program!\r");
+            Console.WriteLine("----------------------------------------------------\n");
             Console.WriteLine("Please enter first number: ");
             num0 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Please enter second number: ");
